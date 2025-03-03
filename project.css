@@ -31,3 +31,7 @@ body > h1 {
 .homepage-flex > a:hover {
   background-color: Snow;
 }
+
+.homepage-flex p {
+  text-align: center;
+}
