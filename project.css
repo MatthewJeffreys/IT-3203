@@ -12,7 +12,7 @@ body {
 
 .homepage-grid h1 {
   color: MediumBlue;
-  grid-column-start: 2
+  grid-column-start: 2;
 }
 
 .homepage-grid a:link {
@@ -27,6 +27,9 @@ body {
 .homepage-grid div {
   text-align: center;
   margin: 20px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
 }
 
 .homepage-grid h2 {
