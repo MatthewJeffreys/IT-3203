@@ -22,6 +22,7 @@ h2 {
 }
 
 .homepage-flex > a:link {
+  color: RoyalBlue;
   background-color: Silver;
   text-decoration: none;
 }
