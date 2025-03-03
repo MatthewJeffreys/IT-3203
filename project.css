@@ -4,7 +4,7 @@ body {
 
 .homepage-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
   align-content: center;
   text-align: center;
   gap: 10px;
@@ -39,4 +39,15 @@ body {
 
 .homepage-grid p {
   color: Black;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-content: center;
+  gap: 10px;
+}
+
+.nav-menu {
+  list-style-type: none;
 }
