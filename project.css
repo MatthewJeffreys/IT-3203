@@ -8,8 +8,16 @@ h1 {
 
 .homepage-flex {
   display: flex;
-  background-color: Silver;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+.homepage-flex > a:link {
+  background-color: Silver;
+  text-decoration: none;
+}
+
+.homepage-flex > a:hover {
+  background-color: Snow;
 }
