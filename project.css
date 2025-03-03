@@ -2,28 +2,25 @@ body {
   background-color: DimGray;
 }
 
-body > h1 {
-  color: SteelBlue;
-  padding-top: 30%;
-  margin: auto;
+h1 {
+  color: MediumBlue;
 }
 
-.homepage-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.homepage-grid {
+  display: grid;
+  text-align: center;
 }
 
-.homepage-flex a:link {
+.homepage-drid a:link {
   background-color: Silver;
   text-decoration: none;
 }
 
-.homepage-flex a:hover {
+.homepage-grid a:hover {
   background-color: Snow;
 }
 
-.homepage-flex div {
+.homepage-grid div {
   text-align: center;
   margin: 20px;
 }
