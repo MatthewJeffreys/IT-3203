@@ -18,6 +18,7 @@ body {
 .homepage-grid a:link {
   background-color: Silver;
   text-decoration: none;
+  align-self: center;
 }
 
 .homepage-grid a:hover {
