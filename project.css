@@ -1,13 +1,11 @@
 body {
-  background-color: Gray;
-  height: 100%;
-  width: 100%;
+  background-color: DimGray;
 }
 
 body > h1 {
   color: SteelBlue;
   padding-top: 30%;
-  text-align: center;
+  margin: auto;
 }
 
 .homepage-flex {
@@ -16,22 +14,24 @@ body > h1 {
   align-items: center;
 }
 
-.homepage-flex h2 {
-  color: SteelBlue;
-  width: 100%;
-  text-align: center;
-}
-
-.homepage-flex > a:link {
-  color: RoyalBlue;
+.homepage-flex a:link {
   background-color: Silver;
   text-decoration: none;
 }
 
-.homepage-flex > a:hover {
+.homepage-flex a:hover {
   background-color: Snow;
 }
 
-.homepage-flex p {
+.homepage-flex div {
   text-align: center;
+  margin: 20px;
+}
+
+a h2 {
+  color: RoyalBlue;
+}
+
+a p {
+  color: Black;
 }
