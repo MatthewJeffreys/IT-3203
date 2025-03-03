@@ -2,16 +2,20 @@ body {
   background-color: DimGray;
 }
 
-h1 {
-  color: MediumBlue;
-}
-
 .homepage-grid {
   display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
   text-align: center;
+  gap: 10px;
 }
 
-.homepage-drid a:link {
+.homepage-grid h1 {
+  color: MediumBlue;
+  column-start: 2
+}
+
+.homepage-grid a:link {
   background-color: Silver;
   text-decoration: none;
 }
@@ -25,10 +29,10 @@ h1 {
   margin: 20px;
 }
 
-a h2 {
+.homepage-grid h2 {
   color: RoyalBlue;
 }
 
-a p {
+.homepage-grid p {
   color: Black;
 }
