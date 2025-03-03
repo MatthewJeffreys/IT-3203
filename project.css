@@ -1,8 +1,14 @@
 body {
   background-color: SlateGrey;
+  height: 100%
+  width: 100%
 }
 
 h1 {
+  color: SteelBlue;
+}
+
+h2 {
   color: SteelBlue;
 }
 
