@@ -2,6 +2,10 @@ body {
   background-color: DimGray;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .homepage-grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
