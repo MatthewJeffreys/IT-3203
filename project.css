@@ -2,6 +2,23 @@ body {
   background-color: DimGray;
 }
 
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: Snow;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: Silver;
+}
+
 .homepage-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
