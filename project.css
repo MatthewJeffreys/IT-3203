@@ -6,19 +6,21 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-content: center;
+  justify-content: center;
   text-align: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .homepage-grid h1 {
-  color: MediumBlue;
+  color: RoyalBlue;
   grid-column: 2 / span 2;
 }
 
-.homepage-grid div {
+.homepage-grid > div {
   text-align: center;
   margin: 20px;
   background-color: SteelBlue;
+  border-color: Black
 }
 
 .homepage-grid a:link {
@@ -27,16 +29,12 @@ body {
   align-self: center;
   border-style: solid;
   border-width: medium;
-  border-color: black;
+  border-color: Blue;
+  padding: 15px;
 }
 
 .homepage-grid a:visited {
-  background-color: Silver;
-  text-decoration: none;
-  align-self: center;
-  border-style: solid;
-  border-width: medium;
-  border-color: Blue;
+  border-color: Black;
 }
 
 .homepage-grid a:hover {
@@ -55,7 +53,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .nav-menu {
@@ -65,10 +63,12 @@ body {
   border-width: medium;
   border-color: black;
   grid-row: 1 / span 2;
+  padding: 15%;
 }
 
 .content-area {
   background-color: LightSlateGray;
+  padding: 10%;
 }
 
 .content-area h1 {
