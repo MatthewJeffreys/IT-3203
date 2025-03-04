@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   gap: 30px;
 }
@@ -32,7 +32,7 @@ body {
   border-width: medium;
   border-color: Blue;
   padding: 15px;
-  width: 80%;
+  width: 60%;
 }
 
 .homepage-grid a:visited {
@@ -66,6 +66,10 @@ body {
   border-color: black;
   grid-row: 1 / span 2;
   padding: 10%;
+}
+
+.nav-menu li {
+  margin-bottom: 15px;
 }
 
 .content-area {
