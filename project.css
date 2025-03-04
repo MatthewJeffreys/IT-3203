@@ -15,6 +15,12 @@ body {
   grid-column: 2 / span 2;
 }
 
+.homepage-grid div {
+  text-align: center;
+  margin: 20px;
+  background-color: SteelBlue;
+}
+
 .homepage-grid a:link {
   background-color: Silver;
   text-decoration: none;
@@ -24,14 +30,17 @@ body {
   border-color: black;
 }
 
-.homepage-grid a:hover {
-  background-color: Snow;
+.homepage-grid a:visited {
+  background-color: Silver;
+  text-decoration: none;
+  align-self: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: Blue;
 }
 
-.homepage-grid div {
-  text-align: center;
-  margin: 20px;
-  background-color: SteelBlue;
+.homepage-grid a:hover {
+  background-color: Snow;
 }
 
 .homepage-grid h2 {
@@ -55,4 +64,13 @@ body {
   border-style: solid;
   border-width: medium;
   border-color: black;
+  grid-row: 1 / span 2;
+}
+
+.content-area {
+  background-color: LightSlateGray;
+}
+
+.content-area h1 {
+  color: RoyalBlue;
 }
