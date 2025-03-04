@@ -72,8 +72,8 @@ tr:nth-child(even) {
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  align-content: center;
   gap: 15px;
+  padding: 10px;
 }
 
 .nav-menu {
