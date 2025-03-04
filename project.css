@@ -32,6 +32,7 @@ body {
   border-width: medium;
   border-color: Blue;
   padding: 15px;
+  width: 80%;
 }
 
 .homepage-grid a:visited {
