@@ -5,8 +5,7 @@ body {
 .homepage-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-content: center;
-  justify-content: center;
+  place-content: center;
   text-align: center;
   gap: 30px;
 }
@@ -17,7 +16,6 @@ body {
 }
 
 .homepage-grid > div {
-  text-align: center;
   margin: 20px;
   background-color: SteelBlue;
   border-style: solid;
