@@ -19,6 +19,9 @@ body {
   background-color: Silver;
   text-decoration: none;
   align-self: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
 }
 
 .homepage-grid a:hover {
@@ -28,9 +31,7 @@ body {
 .homepage-grid div {
   text-align: center;
   margin: 20px;
-  border-style: solid;
-  border-width: medium;
-  border-color: black;
+  background-color: SteelBlue;
 }
 
 .homepage-grid h2 {
@@ -50,4 +51,8 @@ body {
 
 .nav-menu {
   list-style-type: none;
+  background-color: Snow;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
 }
