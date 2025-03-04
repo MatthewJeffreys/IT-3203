@@ -48,6 +48,7 @@ tr:nth-child(even) {
   border-color: Blue;
   padding: 15px;
   width: 60%;
+  margin: auto;
 }
 
 .homepage-grid a:visited {
