@@ -12,7 +12,7 @@ body {
 }
 
 .homepage-grid h1 {
-  color: RoyalBlue;
+  color: MediumBlue;
   grid-column: 2 / span 2;
 }
 
@@ -20,17 +20,19 @@ body {
   text-align: center;
   margin: 20px;
   background-color: SteelBlue;
+  border-style: solid;
+  border-width: medium;
   border-color: Black
 }
 
 .homepage-grid a:link {
   background-color: Silver;
   text-decoration: none;
-  align-self: center;
   border-style: solid;
   border-width: medium;
   border-color: Blue;
   padding: 15px;
+  width: 20%;
 }
 
 .homepage-grid a:visited {
@@ -63,12 +65,15 @@ body {
   border-width: medium;
   border-color: black;
   grid-row: 1 / span 2;
-  padding: 15%;
+  padding: 10%;
 }
 
 .content-area {
   background-color: LightSlateGray;
-  padding: 10%;
+  padding: 5%;
+  border-style: solid;
+  border-width: medium;
+  border-color: Black
 }
 
 .content-area h1 {
